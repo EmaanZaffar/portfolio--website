@@ -34,7 +34,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://static.vecteezy.com/system/resources/thumbnails/051/353/715/small_2x/a-little-girl-with-curly-hair-is-smiling-photo.jpg"
+              src="https://www.svgrepo.com/show/382095/female-avatar-girl-face-woman-user-4.svg"
               alt="Ricardo portrait"
               width="192"
               height="192"
