@@ -34,7 +34,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
+              src="https://static.vecteezy.com/system/resources/thumbnails/051/353/715/small_2x/a-little-girl-with-curly-hair-is-smiling-photo.jpg"
               alt="Ricardo portrait"
               width="192"
               height="192"
