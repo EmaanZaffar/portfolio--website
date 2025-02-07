@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView('About');
-  
+  const { ref } = useSectionInView("About");
+
   return (
     <motion.section
       ref={ref}
@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
 
-      <p className="mb-3">
+      {/* <p className="mb-3">
         After graduating with a degree in{" "}
         <span className="font-medium">Accounting</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
@@ -35,15 +35,46 @@ export default function About() {
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
+      </p> */}
+
+      <p className="mb-3 text-lg">
+        When Covid-19 arrived my father persuade me to learn
+        <span className="font-medium"> Web Development</span> as a hobby, I
+        enrolled in many online resources and learned{" "}
+        <span className="font-medium">full-stack web development</span>.{" "}
+        <span className="italic">My favorite part of programming</span> is the
+        problem-solving aspect. I <span className="underline">love</span> the
+        feeling of finally figuring out a solution to a problem. My core stack
+        is{" "}
+        <span className="font-medium">
+          React, Tailwind css, Node.js, MongoDB and many more
+        </span>
+        . I am also familiar with TypeScript and Prisma. I am always looking to
+        learn new technologies. I am currently looking for a{" "}
+        <span className="font-medium">part-time position</span> as a web
+        developer.I also have a <b>youtube channel</b> called{" "}
+        <a
+          href="https://www.youtube.com/@ui_universe"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline text-pink-500 font-bold"
+        >
+          UI Universe
+        </a>{" "}
+        where i'm currently teaching about building a Booking App.
       </p>
 
-      <p>
+      {/* <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
         video games, watching movies, and playing with my dog. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">history and philosophy</span>. I'm also
         learning how to play the guitar.
+      </p> */}
+      <p className="text-lg">
+        Although i have build full-stack web apps, My <b>expertise</b> are
+        building its UI/UX with amazing transition and animation effects.
       </p>
     </motion.section>
   );
